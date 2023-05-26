@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NXTInstant</title>
+    <style>
+        /* CSS Styling */
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to NXTInstant</h1>
+        <p>This is a dark-themed website created using HTML, CSS, and JavaScript.</p>
+        <p>Feel free to customize and add more content to suit your needs.</p>
+    </div>
+
+    <style>
+        .center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3dc7d4;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            text-decoration: none;
+            box-shadow: 0px 3px 0px #1e7c89;
+        }
+        
+        .button:hover {
+            background-color: #1e7c89;
+            box-shadow: 0px 3px 0px #3dc7d4;
+        }
+    </style>
+    
+    <div class="center-container">
+        <a href="https://forms.gle/6zXCysm272NHob9g8" class="button">Book Your App Now!</a>
+    </div>
+    
+
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 NXTInstant. All rights reserved.</p>
+            <p>Email: <a href="mailto:nxtinstant@webname.com">nxtinstant@webname.com</a></p>
+        </div>
+    </footer>
+    
+
+    <script>
+        // JavaScript code goes here
+        // You can add interactivity and dynamic functionality
+        // Example: console.log('Hello, NXTInstant!');
+    </script>
+</body>
+
+</html>
+
+<style>
+    .breathing-element {
+        width: 200px;
+        height: 200px;
+        background-color: #3dc7d4;
+        animation: breathing 4s ease-in-out infinite;
+    }
+
+    @keyframes breathing {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.2);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+</style>
+
+<div class="breathing-element"></div>
+
+<script>
+    // JavaScript code to remove animation after a certain duration
+    window.addEventListener('DOMContentLoaded', function () {
+        var element = document.querySelector('.breathing-element');
+        element.style.animationIterationCount = '1';
+    });
+</script>
